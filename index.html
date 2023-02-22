@@ -11,10 +11,11 @@
 <body>
     <div class="app">
         <input type="text" id="input" class= "input" disabled>
+        
         <button style="background-color: white" button>C</button>
         
         
-        <button style="background-color: aqua" button>9</button>
+        <button onclick="appendOperation(9)" style="background-color: aqua" button>9</button>
         <button style= "background-color: aqua" button>8</button>
         <button style= "background-color: aqua" button>7</button>
         <button style= "background-color: aqua" button>6</button>
@@ -32,6 +33,22 @@
         <button style="background-color: yellow" butto>x</button>
         <button style="background-color: yellow" button>,</button> 
          <button style="background-color: grey" button>=</button>
+         <button style="background-color: magenta" button>Ausgabe</button>
+         <div id="resultArea"> </div> 
+        <div id="resultArea" div>       }
+        
+
+    
+       
+    ><script>
+        function appendOperation(operation){
+            document.getElementById('resultArea').innerHTML +=
+        }
+
+    </script>
+    <div id="resultArea">
+        1234
     </div>
 </body>
+
 </html>
