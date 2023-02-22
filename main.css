@@ -1,8 +1,19 @@
-body{
-    background-color:aqua;
-}
+body, html {
+    background-color:black;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    }
 
 .app{
-    grid-gap:0px;
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    grid-gap: 0px;
+    grid-auto-rows: minmax(100px, auto);
+    height: 100%;
 }
+
+.input {
+    background-color: black;
+    grid-column: 1 / 3}
 
