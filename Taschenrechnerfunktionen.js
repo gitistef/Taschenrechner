@@ -24,6 +24,7 @@ function multiplication (x,y) {
     return x * y 
 }
 
+
 var x = 1
 var y = 2
 console.log(addition(x,y))
