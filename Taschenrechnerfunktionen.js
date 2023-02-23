@@ -24,18 +24,30 @@ function multiplication (x,y) {
     return x * y 
 }
 
-console.log(addition (x,y))
-console.log(substraction(x,y))
+var x = 1
+var y = 2
+console.log(addition(x,y))
+console.log(subtraction(x,y))
 console.log(division(x,y))
-console.log(multiplication(x * y))
+console.log(multiplication(x,y))
 
 
 //function Rechner auf Null zurücksetzen:
 
-self.clear = function () {
+/*self.clear = function () {
     prevOperator = null;
     self.clearDisplay();
     sum = 0;
 };
+*/
+//function Addition Beispiel:
+{
+const input1 = "30"
+const input2 = "10"
+const calc = input1 + input2
+}
 
-function 
+//Addition zweier natürlicher Zahlen:
+
+
+

@@ -9,15 +9,19 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <div class="app">
+    <div id="resultArea"
+     1234
+</div>
+
+<div     class="app">
         <input type="text" id="input" class= "input" disabled>
         
         <button style="background-color: white" button>C</button>
         
         
-        <button onclick="appendOperation(9)" style="background-color: aqua" button>9</button>
-        <button style= "background-color: aqua" button>8</button>
-        <button style= "background-color: aqua" button>7</button>
+        <button onclick="appendOperation(9)"  button>9</button>
+        <button onclick="appendOperation(8)"  button>8</button>
+        <button onclick="appendOperation(7)"  button>7</button>
         <button style= "background-color: aqua" button>6</button>
 
         <button style="background-color: aqua" button>5</button>
@@ -42,7 +46,7 @@
        
     ><script>
         function appendOperation(operation){
-            document.getElementById('resultArea').innerHTML +=
+            document.getElementById('resultArea').innerHTML += operation;
         }
 
     </script>
