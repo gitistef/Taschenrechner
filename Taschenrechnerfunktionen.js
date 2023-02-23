@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+ 
 //Addition:
 
 function addition (x,y) {
@@ -30,26 +30,12 @@ console.log(division(x,y))
 console.log(multiplication(x * y))
 
 
+//function Rechner auf Null zurücksetzen:
 
+self.clear = function () {
+    prevOperator = null;
+    self.clearDisplay();
+    sum = 0;
+};
 
-
-=======
-//Addition:
-
-function addition (x,y) {
-    return x + y
-}
-
-
-//Subtraktion:
-
-function subtraction (x,y) {
-    return x - y
-}
-
-//Division:
-
-
-
-
->>>>>>> 21997c3e5944eee35787ab39e44fd4a0da5056fb
+function 
