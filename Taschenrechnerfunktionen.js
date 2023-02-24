@@ -41,6 +41,7 @@ console.log(multiplication(x,y))
     sum = 0;
 };
 */
+
 //function Addition Beispiel:
 {
 const input1 = "30"
