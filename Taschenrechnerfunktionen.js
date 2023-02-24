@@ -24,6 +24,12 @@ function multiplication (x,y) {
     return x * y 
 }
 
+//Potenzieren:
+
+function potenzieren (x,y){
+    return x**y
+}
+
 
 var x = 1
 var y = 2
@@ -31,7 +37,7 @@ console.log(addition(x,y))
 console.log(subtraction(x,y))
 console.log(division(x,y))
 console.log(multiplication(x,y))
-
+console.log(potenzieren(x,y))
 
 //function Rechner auf Null zurücksetzen:
 
